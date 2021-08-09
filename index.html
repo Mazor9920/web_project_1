@@ -1,31 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learning how to learn</title>
+  <link rel="stylesheet" target="_blank" href="./styles/normalize.css">
+  <!-- <link rel="stylesheet" target="_blank"  href="./styles/fonts.css"> -->
+  <link rel="stylesheet" target="_blank" href="./styles/style.css">
 </head>
+
 <body>
   <div class="page">
+
     <header class="header">
-
+      <img src="./images/logo_place_header.png" alt="practicum-logo-img" class="logo logo_place_header">
+      <h1 class="header__title">Learning How to Learn</h1>
+      <div class="header__text">
+        <h2 class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life</h2>
+        <a href="#content" class="header__link">Learn more →</a>
+      </div>
+      <img src="./images/header-image.png" alt="person-on-mountain-img" class="header__main-illustration">
+      <div class="header__square-pic"></div>
     </header>
-    <main class="content">
-      <section class="description">
+
+    <main class="content" id="content">
+
+      <section class="description flex-container_center section-gap_l">
+        <div class="two-columns">
+          <h2 class="two-columns__brief">The main problem with education</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">
+              Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself. We often just end up drilling specific exercises and mindlessly memorizing information so that when exam time comes around, we pass
+              the test. But once the test is over, that information has outlived its usefulness, and there's no guarantee that information will be retained. In the end, we're really just learning how to pass our tests.
+            </p>
+            <p class="two-columns__paragraph">
+              <span class="two-columns__span-accent">Here's the real question: </span>
+              does this approach of repetition and memorization help us truly understand the subject material? The academic consensus nowadays is that it doesn't. In fact, what's more important than any individual topic is knowing how to study, but
+              for some reason, this point is often overlooked. So, what can we do to remedy this?
+            </p>
+            <p class="two-columns__paragraph">
+              Well, there are various techniques and exercises that can be applied to the educational process to help make it more efficient and engaging. Keep scrolling to uncover some of the secrets of effective learning.
+            </p>
+          </div>
+        </div>
       </section>
 
-      <section class="digits">
+      <section class="digits flex-container_center section-gap_l">
+        <h2 class="section-title">Facts and figures</h2>
+        <h3 class="section-subtitle">On learning and the brain</h3>
+        <ul class="table">
+          <li class="table__cell">
+            <h4 class="table__heading">86 billion</h4>
+            <p class="table__text">The number of neurons in the human brain</p>
+          </li>
+          <li class="table__cell">
+            <h4 class="table__heading">73%</h4>
+            <p class="table__text">The percentage of adults in the US who consider themselves lifelong learners</p>
+            <p class="table__text">Pew Research Center</p>
+          </li>
+          <li class="table__cell">
+            <h4 class="table__heading">1,000 terabytes</h4>
+            <p class="table__text">The information storage capacity of a human</p>
+          </li>
+          <li class="table__cell">
+            <h4 class="table__heading">500 trillion</h4>
+            <p class="table__text">The number of nerve synapses responsible for learning in the average adult human</p>
+          </li>
+          <li class="table__cell">
+            <h4 class="table__heading">420 million</h4>
+            <p class="table__text">The number of adults under 25 with insufficient education for finding employment</p>
+            <p class="table__text">World Bank, 2017</p>
+          </li>
+          <li class="table__cell">
+            <h4 class="table__heading">26 years old</h4>
+            <p class="table__text">The age at which Albert Einstein published his groundbreaking paper on special relativity</p>
+          </li>
+          <li class="table__cell">
+            <h4 class="table__heading">1885</h4>
+            <p class="table__text">Development of the forgetting curve</p>
+          </li>
+          <li class="table__cell">
+            <h4 class="table__heading">1897</h4>
+            <p class="table__text">Publication of Ivan Pavlov's research on classical conditioning</p>
+          </li>
+        </ul>
       </section>
 
-      <section class="feynman">
+      <section class="feynman flex-container_center section-gap_l">
+        <img src="./images/feynman.png" alt="Richard-Feynman-img" class="feyman__image">
+        <h2 class="feynman__title front-text">The Feynman Technique</h2>
+        <h3 class="feynman__subtitle front-text">Learn without forgetting</h3>
+        <a target="_blank" href="https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230#:~:text=The%20Feynman%20technique%20for%20teaching,was%20a%20student%20at%20Princeton." class="feynman__link front-text">More →</a>
       </section>
 
-      <section class="kaufman">
+      <section class="kaufman flex-container_center section-gap_m">
+        <img src="./images/kaufman-triangle.svg" alt="A big blue triangle, over which Josh Kaufman claims ownership" class="kaufman__triangle">
+        <h2 class="section-title section-title_theme_dark front-text">Ten principles of rapid skill acquisition</h2>
+        <h3 class="section-subtitle section-subtitle_theme_dark front-text">by Josh Kaufman</h3>
+        <ul class="table table_theme_dark front-text">
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">1</h4>
+            <p class="table__text">Choose a lovable project</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">2</h4>
+            <p class="table__text">Focus your energy on one skill at a time</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">3</h4>
+            <p class="table__text">Define your target performance level</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">4</h4>
+            <p class="table__text">Deconstruct the skill into sub-skills</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">5</h4>
+            <p class="table__text">Obtain critical tools</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">6</h4>
+            <p class="table__text">Eliminate barriers to practice</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">7</h4>
+            <p class="table__text">Make dedicated time for practice</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">8</h4>
+            <p class="table__text">Create fast feedback loops</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">9</h4>
+            <p class="table__text">Practice by the clock in short bursts</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">10</h4>
+            <p class="table__text">Emphasize quantity and speed</p>
+          </li>
+        </ul>
       </section>
+
     </main>
-    <footer class="footer">
 
+    <footer class="footer flex-container_center section-gap_s">
+      <div class="footer__columns">
+        <div class="footer__column_content_copyright flex-container_center">
+          <img src="./images/logo_place_footer.png" alt="practicum-logo-img" class="logo logo_place_footer">
+          <p class="footer__author">&copy; 2021 MAZOR LEAVE</p>
+        </div>
+        <div class="footer__column_content_about">
+          <h4 class="footer__column-heading">About Practicum by Yandex</h4>
+          <ul class="footer__list">
+            <li><a target="_blank" href="https://yandex.com/" class="footer__column-link">Home page</a></li>
+            <li><a target="_blank" href="https://yandex.com/company/general_info/yandex_today" class="footer__column-link">Mission</a></li>
+            <li><a target="_blank" href="https://yandex.com/jobs" class="footer__column-link">Professions</a></li>
+          </ul>
+        </div>
+        <div class="footer__column_content_social">
+          <h4 class="footer__column-heading">Social media</h4>
+          <a target="_blank" href="https://www.facebook.com/" class="footer__column-link"><img src="./images/facebook_white.svg" alt="Facebook-icon" class="footer__social-icons">Facebook</a>
+          <a target="_blank" href="https://www.instagram.com/" class="footer__column-link"><img src="./images/instagram_white.svg" alt="Instagram-icon" class="footer__social-icons">Instagram</a>
+        </div>
+      </div>
     </footer>
+
   </div>
 </body>
+
 </html>

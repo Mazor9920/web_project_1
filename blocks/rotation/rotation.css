@@ -1,0 +1,13 @@
+/* complete a full 360° rotation in 20 seconds
+and move repetitively in a loop. */
+
+@keyframes rotation {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotation{
+  animation: rotation 20s linear infinite;
+  overflow: hidden;
+}

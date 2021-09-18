@@ -1,0 +1,18 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* All links on the webpage should
+smoothly transition to being semi-transparent
+when hovering over them with the mouse */
+a {
+  opacity: 100%;
+  transition: opacity 1s linear 0.5s;
+}
+
+a:hover {
+  opacity: 50%;
+}

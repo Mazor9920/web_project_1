@@ -7,12 +7,13 @@
 
 /* All links on the webpage should
 smoothly transition to being semi-transparent
-when hovering over them with the mouse */
-a {
+when hovering over them with the mouse,
+use a mix block*/
+.link {
   opacity: 100%;
   transition: opacity 1s linear 0.5s;
 }
 
-a:hover {
+.link:hover {
   opacity: 50%;
 }

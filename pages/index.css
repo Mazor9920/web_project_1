@@ -103,4 +103,7 @@
 @import url("../blocks/resources/__logo/resources__logo.css");
 
 /* Global Styles */
-@import url("../blocks/root/root.css");
+/* page Block */
+@import url("../blocks/page/page.css");
+/* link Block */
+@import url("../blocks/link/link.css");
